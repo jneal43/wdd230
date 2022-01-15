@@ -1,0 +1,104 @@
+body
+ {
+    background-color: #F2F3D9;
+}
+
+.footer-year, h1, h2 {
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+}
+
+.grid-container {
+    width: 100%;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    height: 120px;
+    background-color: #362A8D;
+    
+}
+
+.content{
+    font-family: 'Cairo', sans-serif;
+    width: 32%;
+    float: right;
+    border-radius: 15px;
+    margin: 7px;
+}
+
+.repetition {
+    background-color: #89DAFB;
+}
+
+.hicks-law {
+    background-color: #89DAFB;
+}
+
+.white-space {
+    background-color: #89DAFB;
+}
+
+.footer-div {
+    height: 420px;
+}
+
+.bottom-box {
+    width: 100%;
+    background-color: #362A8D;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer-year {
+    margin-top: 7px;
+    margin-bottom: 2.5px;
+}
+
+.break {
+    height: 0;
+}
+
+.footer-update {
+    margin-top: 2.5px;
+    margin-bottom: 7px;
+    color: #89DAFB;
+}
+
+.clearfix {
+    clear: both;
+}
+
+@media screen and (max-width: 1100px) {
+	.repetition {
+        width: 48%;
+    }
+	.hicks-law {
+        width: 48%;
+	}
+    .white-space {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 720px) {
+	.repetition {
+        width: 100%;
+    }
+	.hicks-law {
+        width: 100%;
+	}
+    .white-space {
+        width: 100%;
+    }
+    .footer-div {
+        height: 1100px;
+    }
+}
