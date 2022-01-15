@@ -8,6 +8,10 @@ body
     font-family: 'Roboto Mono', monospace;
 }
 
+h3 {
+    margin-left: 5px;
+}
+
 body, html {
     width: 100%;
     height: 100%;
@@ -23,6 +27,8 @@ body, html {
 .header {
     height: 120px;
     background-color: #362A8D;
+    justify-content: center;
+    text-align: center;
     
 }
 
@@ -32,6 +38,9 @@ body, html {
     float: right;
     border-radius: 15px;
     margin: 7px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto auto;
 }
 
 .repetition {
@@ -46,13 +55,11 @@ body, html {
     background-color: #89DAFB;
 }
 
-.footer-div {
-    height: 420px;
-}
-
 .bottom-box {
-    width: 100%;
+    max-width: 1100px;
     background-color: #362A8D;
+    margin-left: auto;
+    margin-right: auto;
     justify-content: center;
     text-align: center;
 }
@@ -97,8 +104,5 @@ body, html {
 	}
     .white-space {
         width: 100%;
-    }
-    .footer-div {
-        height: 1100px;
     }
 }
