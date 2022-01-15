@@ -46,7 +46,7 @@ body
 body h2 {
     grid-column: 1;
     grid-row: 2;
-    margin-bottom: 0;
+    margin-bottom: 0px;
     display: flex;
     align-items: center;
     justify-content: left;
@@ -61,10 +61,6 @@ main {
     align-items: center;
     justify-content: left;
     font-family: 'Cairo', sans-serif;
-}
-
-li {
-   
 }
 
 .bottom-box {
