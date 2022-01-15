@@ -16,7 +16,7 @@ body
 }
 
 .top-box {
-    background: #4838BC;
+    background: #362A8D;
     grid-column: 1 / 3;
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -64,7 +64,7 @@ main {
 }
 
 .bottom-box {
-    background: #4838BC;
+    background: #362A8D;
     grid-column: 1 / 3;
     grid-row: 4 / 6;
     display: flex;
@@ -88,5 +88,5 @@ main {
 .footer-update {
     margin-top: 2.5px;
     margin-bottom: 7px;
-    color: #75D4FA;
+    color: #89DAFB;
 }
