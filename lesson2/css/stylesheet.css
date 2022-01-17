@@ -67,6 +67,12 @@ h3, main p, a {
 .white-space {
     grid-column: 3;
     grid-row: 2;
+    grid-template-rows: auto auto auto auto 1fr;
+}
+
+.white-content {
+    align-items: center;
+    grid-row: 5;
 }
 
 img {
