@@ -1,3 +1,7 @@
+body{
+    background-color: #121212;
+}
+
 .grid-container {
     width: 100%;
     display: grid;
@@ -13,7 +17,7 @@
     grid-column: 1 / 4;
     text-align: center;
     justify-content: center;
-    background-color: #362A8D;
+    background-color: #8B7418;
 }
 
 h1, h2, .footer-year {
@@ -32,8 +36,10 @@ main {
 .content{
     margin: 4%;
     display: grid;
+    color: white;
     grid-template-columns: 1fr;
-    background-color: #F2F3D9;
+    background-color: rgba(255, 255, 255, 0.05);
+
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     font-family: 'Cairo', sans-serif;
@@ -44,7 +50,7 @@ main {
 .block {
     height: 100%;
     grid-row: 1 / 2;
-    background-color: #89DAFB;
+    background-color: #5299CB;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.3), 0 0 0 1px rgba(0, 0, 0, 0.3);
@@ -52,6 +58,23 @@ main {
 
 h3, main p, a {
     margin-left: 5px;
+}
+
+h3 {
+    color: #121212;
+    opacity: .87;
+}
+
+main p {
+    opacity: .6;
+}
+
+a {
+    color: #0E99D2
+}
+
+a:visited {
+    color: #AB97C3
 }
 
 .repetition {
@@ -89,7 +112,7 @@ img {
     margin-right: auto;
     text-align: center;
     justify-content: center;
-    background-color: #362A8D;
+    background-color: #8B7418;
 }
 
 .footer-year {
@@ -102,7 +125,7 @@ img {
 }
 
 .footer-update {
-    color: #89DAFB;
+    color: #FCE4D8;
     margin-top: 2.5px;
     margin-bottom: 0px;
 }
