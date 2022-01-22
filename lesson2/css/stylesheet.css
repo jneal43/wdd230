@@ -17,7 +17,8 @@ body{
     grid-column: 1 / 4;
     text-align: center;
     justify-content: center;
-    background-color: #8B7418;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 15px;
 }
 
 h1, h2, .footer-year {
@@ -39,7 +40,6 @@ main {
     color: white;
     grid-template-columns: 1fr;
     background-color: rgba(255, 255, 255, 0.05);
-
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     font-family: 'Cairo', sans-serif;
@@ -50,7 +50,6 @@ main {
 .block {
     height: 100%;
     grid-row: 1 / 2;
-    background-color: #5299CB;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.3), 0 0 0 1px rgba(0, 0, 0, 0.3);
@@ -75,6 +74,18 @@ a {
 
 a:visited {
     color: #AB97C3
+}
+
+.repetition .block {
+    background-color: #5299CB;
+}
+
+.hicks-law .block {
+    background-color: #E499FF;
+}
+
+.white-space .block {
+    background-color: #F9ED4E;
 }
 
 .repetition {
@@ -112,7 +123,8 @@ img {
     margin-right: auto;
     text-align: center;
     justify-content: center;
-    background-color: #8B7418;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
 }
 
 .footer-year {
@@ -125,7 +137,7 @@ img {
 }
 
 .footer-update {
-    color: #FCE4D8;
+    color: #5299CB;
     margin-top: 2.5px;
     margin-bottom: 0px;
 }
