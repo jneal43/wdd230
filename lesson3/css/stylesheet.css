@@ -146,6 +146,10 @@ p {
     background-color: white;
 }
 
+.typography p {
+    max-width:
+}
+
 .bottom-box {
     background-color: #96223F;
     margin-bottom: 0px;
