@@ -21,7 +21,6 @@ body{
     grid-template-columns: 1fr 2fr;
     grid-auto-rows: 200px;
     border-radius: 15px;
-    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
 }
 
 .portrait {
@@ -75,30 +74,28 @@ main {
 ul {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     list-style-type: none;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
     margin: 0;
     padding: 0;
-    justify-content: center;
   }
 
 li a {
-      width: 1fr;
-      color: #F9ED4E;
+      color: white;
       display: block;
       text-decoration: none;
       padding: 8px 16px;
 }
   
 li a:hover {
-      background-color: #E499FF;
-      color: #121212;
+      background-color: #5299CB;
+      opacity: 1;
+      color: black;
+      border-top-right-radius: 15px;
+      border-bottom-right-radius: 15px;
 }
 
 a:visited {
-    color: #A1C7E3
+    color: white;
 }
 
 .bottom-box {
@@ -109,7 +106,6 @@ a:visited {
     flex-wrap: wrap;
     justify-content: center;
     border-radius: 10px;
-    box-shadow: 0 0 8px 4px rgba(0, 0, 0, 0.3), 0 0 8px 4px rgba(0, 0, 0, 0.3);
 }
 
 .footer-year {
