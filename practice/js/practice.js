@@ -1,5 +1,6 @@
 const button = document.querySelector('.btn');
 const body = document.querySelector('body');
+const nav = document.querySelector('.navigation')
 
 function show() {
     //button.classList.add('newstyle');
@@ -13,3 +14,6 @@ button.addEventListener('click', show);
 //     button.classList.add('newstyle')
 // });
 
+function toggleMenu() {
+    nav.classList.toggle('responsive');
+}
