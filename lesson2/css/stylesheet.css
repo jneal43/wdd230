@@ -51,6 +51,7 @@ h3 {
 }
 
 main p {
+    text-align: center;
     opacity: .6;
 }
 
