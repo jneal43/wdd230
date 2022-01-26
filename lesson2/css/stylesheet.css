@@ -2,6 +2,11 @@ body{
     background-color: #121212;
 }
 
+h1, h2, footer {
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+}
+
 .grid-container {
     width: 100%;
     display: grid;
@@ -19,11 +24,6 @@ body{
     justify-content: center;
     background-color: rgba(255, 255, 255, 0.05);
     border-radius: 15px;
-}
-
-h1, h2, .footer-year {
-    color: white;
-    font-family: 'Roboto Mono', monospace;
 }
 
 main {
