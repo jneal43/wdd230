@@ -5,6 +5,10 @@
 		},
 		{
 			"path": "..\\..\\..\\DevOps"
+		},
+		{
+			"name": "api-tests",
+			"path": "..\\..\\..\\api-tests\\api-tests"
 		}
 	],
 	"settings": {
