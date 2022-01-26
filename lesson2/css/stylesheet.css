@@ -11,7 +11,7 @@ h1, h2, footer {
     padding-bottom: 5px;
 }
 
-.header {
+header {
     text-align: center;
     justify-content: center;
     background-color: rgba(255, 255, 255, 0.05);
@@ -55,12 +55,17 @@ main p {
     opacity: .6;
 }
 
+.author {
+    font-size: 1.12em;
+}
+
 a {
-    color: #0E99D2
+    color: #0E99D2;
+    text-align: center;
 }
 
 a:visited {
-    color: #AB97C3
+    color: #AB97C3;
 }
 
 .repetition .block {
