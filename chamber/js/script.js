@@ -16,8 +16,16 @@ var longDate = weekDay +', '+ monthDay +' '+ month +' '+ year;
 
 var dateTime = date +' '+ time;
 
-document.getElementById('longDate').textContent = longDate;
+document.getElementById('long-date').textContent = longDate;
 
 document.getElementById('year').textContent = year;
 
 document.getElementById('updateDate').textContent = dateTime;
+
+document.getElementById('ham').addEventListener('click', toggleMenu)
+
+const nav = document.querySelector('.navigation')
+
+function toggleMenu() {
+    nav.classList.toggle('responsive');
+}
