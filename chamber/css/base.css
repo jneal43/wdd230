@@ -4,9 +4,15 @@ body {
 
 header {
     display: grid;
-    grid-template-columns: auto 1fr;
+    max-width: 1100px;
     grid-template-rows: 200px auto;
     background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    justify-content: center;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
 }
 
 nav {
@@ -69,6 +75,86 @@ nav {
     margin-right: auto;
 }
 
+main {
+    display: grid;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+main p {
+    padding-left: 5px;
+}
+
+.card {
+    height: 200px;
+    border-style: solid;
+    margin: 7px;
+}
+
+.spotlight {
+    height: 450px;
+}
+
+.spot {
+    height: 200px;
+    border-style: solid;
+}
+
+.spot1 {
+    grid-row: 1;
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 0px;
+}
+
+.spot2 {
+    grid-row: 2;
+    margin-bottom: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 0px;
+}
+
+.spot3 {
+    display: none;
+}
+
+.bottom-box {
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color: #121212;
+}
+
+footer {
+    padding-top: 3px;
+    padding-bottom: 5px;
+}
+
+.footer-year {
+    margin-top: 7px;
+    margin-bottom: 2.5px;
+    color: white;
+}
+
+.break {
+    height: 0;
+}
+
+.footer-update {
+    color: #5299CB;
+    margin-top: 2.5px;
+    margin-bottom: 0px;
+}
+
 @media only screen and (min-width: 565px) {
     .navigation {
         flex-direction: row;
@@ -85,5 +171,97 @@ nav {
     }
     #top-image {
         grid-row: 1 / 3;
+    }
+    .hero {
+        grid-column: 1 / 4;
+        grid-row: 1;
+    }
+    .event {
+        grid-column: 1 / 3;
+        grid-row: 5;
+    }
+    .weather {
+        grid-column: 3;
+        grid-row: 5;
+    }
+    .news-release {
+        grid-column: 1 / 4;
+        grid-row: 2;
+    }
+    .spotlight {
+        display: grid;
+        height: 214px;
+        grid-column: 1 / 4;
+        grid-row: 3;
+    }
+    .spot1 {
+        grid-column: 1;
+        grid-row: 1;
+        margin: 1%;
+    }
+    .spot2 {
+        grid-column: 2;
+        grid-row: 1;
+        margin: 1%;
+    }
+    .join {
+        grid-column: 1 / 4;
+        grid-row: 4;
+    }
+}
+
+@media only screen and (min-width: 960px) {
+    main {
+        grid-template-columns: auto auto auto auto;
+    }
+    .hero {
+        grid-column: 2 / 4;
+        grid-row: 1 / 3;
+        height: 425px;
+    }
+    .event {
+        grid-column: 1;
+        grid-row: 1;
+    }
+    .weather {
+        grid-column: 1;
+        grid-row: 2;
+    }
+    .news-release {
+        grid-column: 2 / 4;
+        grid-row: 3;
+    }
+    .spotlight {
+        grid-column: 4 / 5;
+        grid-row: 1 / 4;
+        display: block;
+        height: 650px;
+    }
+    .spot1 {
+        height: 208px;
+        margin-top: 1%;
+        margin-left: 1%;
+        margin-right: 1%;
+        margin-bottom: 0px;
+    }
+    .spot2 {
+        height: 208px;
+        margin-bottom: 0px;
+        margin-left: 1%;
+        margin-right: 1%;
+        margin-top: 0px;
+    }
+    .spot3 {
+        border-style: solid;
+        height: 210px;
+        display: block;
+        margin-bottom: 1%;
+        margin-left: 1%;
+        margin-right: 1%;
+        margin-top: 0px;
+    }
+    .join {
+        grid-column: 1;
+        grid-row: 3;
     }
 }
