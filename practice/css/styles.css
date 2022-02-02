@@ -50,6 +50,31 @@ nav{
     display: block;
 }
 
+main {
+    max-width: 820px;
+    margin: 0 auto;
+}
+
+.herodiv {
+    margin: 10px auto;
+    position: relative;
+}
+
+h1, h2, p {
+    margin: 0;
+}
+
+.stats {
+	position: absolute;
+	top: 25px;
+	right: 50px;
+	background: radial-gradient(#eee, #4567aa);
+	border: 1px solid #000;
+	padding: 1.5rem;
+	box-shadow: 0 0 30px #333;
+	opacity: .9;
+}
+
 @media only screen and (min-width: 530px) {
     .navigation {
         display: flex;

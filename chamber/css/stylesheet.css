@@ -99,7 +99,8 @@ main p {
 
 .spot {
     height: 200px;
-    border-style: solid;
+    margin: 1px;
+    border: 1px solid black;
 }
 
 .spot1 {
