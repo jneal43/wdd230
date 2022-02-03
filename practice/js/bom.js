@@ -16,11 +16,13 @@ function addToList() {
     span.textContent = newItem;
     del_button.textContent = '❌';
     del_button.addEventListener('click', deleteFromList);
+    document.getElementById('favchap').focus();
 
     function deleteFromList() {
         listItem.classList.toggle('disappear');
         span.classList.toggle('disappear');
         del_button.classList.toggle('disappear');
+        document.getElementById('favchap').focus();
     }
 
 }
