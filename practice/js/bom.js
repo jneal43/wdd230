@@ -1,6 +1,6 @@
-const button = document.querySelector('.submit');
-const input = document.getElementById('favchap').value;
 const list = document.querySelector('.list');
+const input = document.getElementById('favchap').value;
+const button = document.querySelector('.submit');
 
 button.addEventListener('click', addToList);
 
@@ -9,19 +9,21 @@ function addToList() {
     document.getElementById('favchap').value = '';
     const listItem = document.createElement('li');
     const span = document.createElement('span');
-    const del_button = document.createElement('button');
-    list.append(span);
-    list.append(del_button);
+    const delButton = document.createElement('button');
+    delButton.className = 'del-button';
     list.appendChild(listItem);
+    list.append(span);
+    list.append(delButton);
     span.textContent = newItem;
-    del_button.textContent = '❌';
-    del_button.addEventListener('click', deleteFromList);
+    delButton.textContent = '❌';
     document.getElementById('favchap').focus();
-
+    
+    delButton.addEventListener('click', deleteFromList);
+    
     function deleteFromList() {
         listItem.classList.toggle('disappear');
         span.classList.toggle('disappear');
-        del_button.classList.toggle('disappear');
+        delButton.classList.toggle('disappear');
         document.getElementById('favchap').focus();
     }
 
