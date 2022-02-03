@@ -199,7 +199,7 @@ main p {
 }
 
 h3 {
-    margin: 0px auto;
+    margin: 2px auto;
     color: #ffffff;
     max-width: 250px;
 }
@@ -225,7 +225,7 @@ footer {
     margin-bottom: 0px;
 }
 
-@media only screen and (min-width: 565px) {
+@media only screen and (min-width: 570px) {
     .navigation {
         flex-direction: row;
     }
@@ -280,6 +280,25 @@ footer {
     .join {
         grid-column: 1 / 4;
         grid-row: 4;
+    }
+    .hazardville {
+        display: grid;
+    }
+    #hazard-logo {
+        margin: 5px auto;
+        align-self: center;
+        grid-column: 1;
+        grid-row: 1;
+    }
+    #contact{
+        margin: auto;
+        grid-column: 3;
+        grid-row: 1;
+    }
+    h3 {
+        margin: auto;
+        grid-column: 2;
+        grid-row: 1;
     }
 }
 
