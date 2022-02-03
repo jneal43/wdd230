@@ -48,18 +48,25 @@ label {
 
 ul {
 	margin: 1rem;
+    position: relative;
 	list-style: none;
+    line-height: 2;
 }
 
 li {
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
-	margin-bottom: 0.5rem;
+	justify-content: space-around;
+	margin-bottom: 1rem;
 }
 
 .disappear {
     display: none;
+}
+
+.del-button {
+    position: absolute;
+    right: 0px;
 }
 
 @media only screen and (min-width: 32.5em) {
