@@ -13,6 +13,7 @@ header {
     justify-content: center;
     border-bottom-right-radius: 15px;
     border-bottom-left-radius: 15px;
+    position: relative;
 }
 
 nav {
@@ -34,6 +35,8 @@ nav {
     display: block;
     max-width: 42px;
     margin-left: auto;
+    position: absolute;
+    right: 0px;
 }
 
 .navigation li {
