@@ -1,5 +1,4 @@
 const list = document.querySelector('.list');
-const input = document.getElementById('favchap').value;
 const button = document.querySelector('.submit');
 
 button.addEventListener('click', addToList);
@@ -17,7 +16,7 @@ function addToList() {
     span.textContent = newItem;
     delButton.textContent = '❌';
     document.getElementById('favchap').focus();
-    
+
     delButton.addEventListener('click', deleteFromList);
     
     function deleteFromList() {
