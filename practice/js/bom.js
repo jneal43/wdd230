@@ -20,16 +20,15 @@ function addToList() {
     span.textContent = newItem;
     delButton.textContent = '❌';
 
-    document.getElementById('favchap').focus();
-
     delButton.addEventListener('click', deleteFromList);
     
     function deleteFromList() {
-        span.classList.toggle('disappear');
-        listItem.classList.toggle('disappear');
-        delButton.classList.toggle('disappear');
 
+        list.removeChild(listItem);
+        
         document.getElementById('favchap').focus();
 
     }
+
+    document.getElementById('favchap').focus();
 }
