@@ -4,26 +4,32 @@ const button = document.querySelector('.submit');
 button.addEventListener('click', addToList);
 
 function addToList() {
+
     let newItem = document.getElementById('favchap').value;
+
     document.getElementById('favchap').value = '';
-    const listItem = document.createElement('li');
+    
     const span = document.createElement('span');
+    const listItem = document.createElement('li');
     const delButton = document.createElement('button');
-    delButton.className = 'del-button';
+
     list.appendChild(listItem);
-    listItem.append(span);
-    listItem.append(delButton);
+    listItem.appendChild(span);
+    listItem.appendChild(delButton);
+
     span.textContent = newItem;
     delButton.textContent = '❌';
+
     document.getElementById('favchap').focus();
 
     delButton.addEventListener('click', deleteFromList);
     
     function deleteFromList() {
-        listItem.classList.toggle('disappear');
         span.classList.toggle('disappear');
+        listItem.classList.toggle('disappear');
         delButton.classList.toggle('disappear');
-        document.getElementById('favchap').focus();
-    }
 
+        document.getElementById('favchap').focus();
+
+    }
 }
