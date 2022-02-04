@@ -125,7 +125,7 @@ h2 {
 }
 
 .weather:hover {
-    box-shadow: 0px 0px 7px 2px rgba(228, 25, 255, 0.404);
+    box-shadow: 0px 0px 7px 2px rgba(229, 255, 0, 0.322);
 }
 
 .spotlight:hover {
@@ -133,7 +133,7 @@ h2 {
 }
 
 .join:hover {
-    box-shadow: 0px 0px 7px 2px rgba(229, 255, 0, 0.322);
+    box-shadow: 0px 0px 7px 2px rgba(228, 25, 255, 0.404);
 }
 
 .news-release:hover {
@@ -305,12 +305,18 @@ footer {
         margin: 0;
     }
     .join h3 {
-        background-color: black;
+        background-color: white;
         border-radius: 10px;
         padding-bottom: 7px;
-        margin: auto 40%;
         padding-top: 7px;
+        margin-top: 1%;
+        transition: .4s;
+        color: black;
+        width: 95%;
+    }
+    .join h3:hover {
         color: white;
+        background-color: rgba(228, 25, 255, 0.404);
     }
     .join a {
         text-decoration: none;
@@ -397,6 +403,6 @@ footer {
         grid-row: 3;
     }
     .join h3 {
-        margin: auto 25%;
+        margin-top: 2%;
     }
 }
