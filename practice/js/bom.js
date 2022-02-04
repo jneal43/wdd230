@@ -11,8 +11,8 @@ function addToList() {
     const delButton = document.createElement('button');
     delButton.className = 'del-button';
     list.appendChild(listItem);
-    list.append(span);
-    list.append(delButton);
+    listItem.append(span);
+    listItem.append(delButton);
     span.textContent = newItem;
     delButton.textContent = '❌';
     document.getElementById('favchap').focus();
