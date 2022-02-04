@@ -318,6 +318,9 @@ footer {
     .hazardville {
         display: grid;
     }
+    .hazardville h3 {
+        margin: auto;
+    }
     #hazard-logo {
         align-self: center;
         margin: 5px auto;
