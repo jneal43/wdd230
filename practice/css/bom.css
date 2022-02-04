@@ -1,3 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
+* {
+	margin: 0;
+	padding: 0;
+}
 body {
 	height: 100vh;
 	display: flex;
@@ -5,7 +10,7 @@ body {
 	align-items: center;
 	justify-content: center;
 	font-size: 18px;
-    font-family: 'Cairo', sans-serif;
+	font-family: Acme, Arial, sans-serif;
 }
 
 h1 {
@@ -48,25 +53,14 @@ label {
 
 ul {
 	margin: 1rem;
-    position: relative;
 	list-style: none;
-    line-height: 2;
 }
 
 li {
 	display: flex;
 	align-items: center;
-	justify-content: space-around;
-	margin-bottom: 1rem;
-}
-
-.disappear {
-    display: none;
-}
-
-.del-button {
-    position: absolute;
-    right: 0px;
+	justify-content: space-between;
+	margin-bottom: 0.5rem;
 }
 
 @media only screen and (min-width: 32.5em) {
