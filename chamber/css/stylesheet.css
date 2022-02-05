@@ -132,6 +132,10 @@ main p {
     color: black;
 }
 
+.card h3 {
+    margin: 7px auto;
+}
+
 .card h4, p, li {
     color: white;
 }
