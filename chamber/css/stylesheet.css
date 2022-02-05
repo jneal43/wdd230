@@ -132,7 +132,7 @@ main p {
     color: black;
 }
 
-.card p {
+.card h4, p, li {
     color: white;
 }
 
@@ -239,7 +239,7 @@ main p {
 #hazard-logo {
     max-height: 200px;
     display: block;
-    margin: auto;
+    margin: 5px auto;
 }
 
 .hazardville a {
