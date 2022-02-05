@@ -217,32 +217,32 @@ main p {
     margin: 1px;
 }
 
-.spot1 {
-    margin-bottom: 0px;
-    margin-right: 1%;
-    transition: 0.3s;
-    margin-left: 1%;
-    margin-top: 1%;
-    grid-row: 1;
-}
-
 .spot img {
     max-height: 100px;
     display: block;
     margin: 15px auto;
 }
 
+.spot1 {
+    margin-bottom: 0px;
+    margin-right: 1%;
+    transition: 0.4s;
+    margin-left: 1%;
+    margin-top: 1%;
+    grid-row: 1;
+}
+
 .spot2 {
     margin-bottom: 1%;
     margin-right: 1%;
-    transition: 0.3s;
+    transition: 0.4s;
     margin-left: 1%;
     margin-top: 0px;
     grid-row: 2;
 }
 
 .spot3 {
-    transition: 0.3s;
+    transition: 0.4s;
     display: none;
 }
 
