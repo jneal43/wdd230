@@ -47,6 +47,8 @@ nav {
 
 .navigation a {
 	font-size: clamp(1rem, 2vmin, 1.5rem);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
 	text-decoration: none;
 	color: #ffffff;
 	padding: 0.75rem;
@@ -114,10 +116,33 @@ h2 {
 
 .hero {
     background: url("../images/delaware.jpg") center;
+    position: relative;
+}
+
+.hero h3 {
+    background-color: #121212;
+    border-radius: 10px;
+    padding: 7px;
+    margin: 1% auto;
+    transition: .4s;
+    color: white;
+    width: 95%;
+}
+
+.hero h3:hover {
+    background-color: rgba(0, 119, 255, 0.719);
+    color: black;
+}
+
+.hero a {
+    text-decoration: none;
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
 }
 
 .hero:hover {
-    box-shadow: 0px 0px 7px 2px rgba(0, 183, 255, 0.425);
+    box-shadow: 0px 0px 7px 2px rgba(0, 119, 255, 0.719);
 }
 
 .event:hover {
@@ -403,6 +428,6 @@ footer {
         grid-row: 3;
     }
     .join h3 {
-        margin-top: 2%;
+        margin: 3% auto;
     }
 }
