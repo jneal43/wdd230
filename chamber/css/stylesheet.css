@@ -485,12 +485,10 @@ footer {
     }
     .event {
         grid-column: 1;
-        max-width: 1fr;
         grid-row: 1;
     }
     .weather {
         grid-column: 1;
-        max-width: 1fr;
         grid-row: 2;
     }
     .news-release {
@@ -528,7 +526,6 @@ footer {
     }
     .join {
         grid-column: 1;
-        max-width: 1fr;
         grid-row: 3;
     }
     .join h3 {
