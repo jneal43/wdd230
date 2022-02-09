@@ -84,11 +84,11 @@ nav {
 }
 
 #top-image {
-    max-height: 200px;
-    max-width: 150px;
     transition: 0.3s;
     display: block;
+    height: 200px;
     margin: 15px;
+    width: 150px;
 }
 
 #top-image:hover {
@@ -107,9 +107,9 @@ nav {
 }
 
 .social img {
-    max-height: 45px;
-    max-width: 45px;
     transition: .4s;
+    height: 45px;
+    width: 45px;
     margin: 3px;
 }
 
@@ -305,10 +305,10 @@ main p {
 }
 
 #hazard-logo {
-    max-height: 200px;
-    max-width: 150px;
-    display: block;
     margin: 5px auto;
+    display: block;
+    height: 200px;
+    width: 150px;
 }
 
 .hazardville a {
