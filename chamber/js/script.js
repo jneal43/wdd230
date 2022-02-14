@@ -7,13 +7,22 @@ var date = new Date(document.lastModified).toLocaleDateString("en-US");
 var time = new Date(document.lastModified).toLocaleTimeString('en-US', { hour12: false });
 var longDate = weekDay +', '+ monthDay +' '+ month +' '+ year;
 var dateTime = date +' '+ time;
-const nav = document.querySelector('.navigation')
+const nav = document.querySelector('.navigation');
 
 document.getElementById('long-date').textContent = longDate;
 document.getElementById('year').textContent = year;
 document.getElementById('updateDate').textContent = dateTime;
-document.getElementById('ham').addEventListener('click', toggleMenu)
+document.getElementById('ham').addEventListener('click', toggleMenu);
 
 function toggleMenu() {
     nav.classList.toggle('responsive');
-}
+};
+
+if (weekDay !== 'Monday' || 'Tuesday') {
+    announcement();
+};
+
+function announcement() {
+    console.log(weekDay);
+    document.getElementById("announcement").classList.remove("disappear");
+};
