@@ -18,7 +18,7 @@ function toggleMenu() {
     nav.classList.toggle('responsive');
 };
 
-if (weekDay !== 'Monday' || 'Tuesday') {
+if (weekDay == 'Monday' || weekDay == 'Tuesday') {
     announcement();
 };
 
