@@ -30,4 +30,4 @@ function setStyles() {
 
 }
 
-bgcolorForm.onchange = populateStorage;
+bgcolorForm.addEventListener("change", populateStorage);
