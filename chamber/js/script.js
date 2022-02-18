@@ -23,6 +23,5 @@ if (weekDay == 'Monday' || weekDay == 'Tuesday') {
 };
 
 function announcement() {
-    console.log(weekDay);
     document.getElementById("announcement").classList.remove("disappear");
 };
