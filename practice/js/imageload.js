@@ -1,4 +1,4 @@
-const images = document.querySelectorAll('img');
+const images = document.querySelectorAll('[data-src]');
 const options = {    threshold: [.5]    };
 
 function preloadImage(img) {
