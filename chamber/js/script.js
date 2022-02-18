@@ -9,6 +9,19 @@ var longDate = weekDay +', '+ monthDay +' '+ month +' '+ year;
 var dateTime = date +' '+ time;
 const nav = document.querySelector('.navigation');
 
+const cards = document.querySelectorAll('.card');
+const options = {    threshold: [.5]    };
+const io = new IntersectionObserver((entries, io) => {
+    entries.forEach(entry =>  {
+        if (!entry.isIntersecting) {
+            return;
+        } else {
+            
+        }
+    })
+}, options);
+
+
 document.getElementById('long-date').textContent = longDate;
 document.getElementById('year').textContent = year;
 document.getElementById('updateDate').textContent = dateTime;
