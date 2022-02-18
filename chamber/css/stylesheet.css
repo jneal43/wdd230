@@ -176,7 +176,7 @@ main p {
 }
 
 .hero {
-    /* background: url("../images/delaware.webp") center; */
+    background: url("../images/delaware.webp") center;
     position: relative;
 }
 
@@ -235,7 +235,7 @@ picture {
     display: flex;
 }
 
-picture img {
+#home img {
     align-self: center;
     width: 100%;
     height: 100%;
@@ -563,6 +563,13 @@ footer {
         margin: auto;
         grid-row: 1;
     }
+    /* DISCOVER.HTML */
+    .gallery{
+        grid-template-columns: 1fr 1fr;
+    }
+    #pic9 {
+        grid-column: 1 / 3;
+    }
 }
 
 @media only screen and (min-width: 960px) {
@@ -629,4 +636,23 @@ footer {
     .join h3 {
         margin: 3% auto;
     }
+    /* DISCOVER.HTML */
+    .gallery{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+}
+
+/* DISCOVER.HTML */
+
+.gallery {
+    display: grid;
+    text-align: center;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.gallery picture {
+    padding: 5px;
+    margin: auto auto;
 }
