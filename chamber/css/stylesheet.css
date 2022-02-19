@@ -655,7 +655,47 @@ footer {
     margin: auto;
 }
 
+figure {
+    margin: auto;
+}
+
 .gallery picture {
-    padding: 5px;
     margin: auto auto;
+    justify-content: center;
+}
+
+#pic1 {
+    height: 200px;
+}
+
+#pic2 {
+    height: 245px;
+}
+
+#pic3 {
+    height: 220px;
+}
+
+#pic4 {
+    height: 220px;
+}
+
+#pic5 {
+    height: 185px;
+}
+
+#pic6 {
+    height: 250px;
+}
+
+#pic7 {
+    height: 220px;
+}
+
+#pic8 {
+    height: 185px;
+}
+
+#pic9 {
+    height: 245px;
 }
