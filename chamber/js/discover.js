@@ -23,3 +23,23 @@ const io = new IntersectionObserver (
 images.forEach(image => {
     io.observe(image);
 });
+
+const today = 1745954186290;
+console.log("today: " + today);
+
+const visits = document.querySelector('.visits');
+console.log("visits: " + visits);
+
+let lastVisit = Number(window.localStorage.getItem("last-visit"));
+console.log("last visit: " + lastVisit);
+
+let daysSinceVisit = Math.floor((today - lastVisit)/1000/60/60/24);
+console.log("days since: " + daysSinceVisit);
+
+if (lastVisit !== 0) {
+    visits.textContent = daysSinceVisit;
+} else {
+    visits.textContent = "This is your first visit!";
+}
+
+localStorage.setItem("last-visit", today);

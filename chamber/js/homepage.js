@@ -1,3 +1,11 @@
+if (weekDay == 'Monday' || weekDay == 'Tuesday') {
+    announcement();
+};
+
+function announcement() {
+    document.getElementById("announcement").classList.remove("disappear");
+};
+
 let temperature = document.getElementById('temperature').textContent;
 let windSpeed = document.getElementById('windSpeed').textContent;
 

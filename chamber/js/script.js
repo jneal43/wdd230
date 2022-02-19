@@ -17,11 +17,3 @@ document.getElementById('ham').addEventListener('click', toggleMenu);
 function toggleMenu() {
     nav.classList.toggle('responsive');
 };
-
-if (weekDay == 'Monday' || weekDay == 'Tuesday') {
-    announcement();
-};
-
-function announcement() {
-    document.getElementById("announcement").classList.remove("disappear");
-};
