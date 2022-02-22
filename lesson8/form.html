@@ -2,7 +2,7 @@
 <html lang="en">   
     <head>
         <link rel="stylesheet" href="../css/normalize.css">
-        <link rel="stylesheet" href="css/stylesheet.css">
+        <link rel="stylesheet" href="css/form.css">
         <link rel="shortcut icon" href="favicon.ico">
         <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400&display=swap" rel="stylesheet">
@@ -16,8 +16,15 @@
             <label for="fname">First Name:</label>
             <input id="fname" name="firstname" required>
             <label for="phone">Phone Number:</label>
-            <input id="phone" type="tel" name="phonenum">
-            <textarea>This </textarea>
+            <input id="phone" type="number" name="phonenum">
+            <label for="message">Give us a message</label>
+            <textarea id="message"></textarea>
+            <input type="hidden" name="todaydate" value="CurrentDate">
+            <label for="levels" name="memlevel">Levels</label>
+            <datalist list="level" name="memlevel">
+                <option value="level">Level 1</option>
+                <option value="level">Level 2</option>
+                <option value="level">Level 3</option>
 
             <input type="submit" value="Submit">
         </form>
