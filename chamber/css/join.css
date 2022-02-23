@@ -129,6 +129,14 @@ nav {
     box-shadow: 0px 0px 7px 2px rgb(0, 142, 241, 0.5);
 }
 
+main {
+	color: #ffffff;
+}
+
+label, input, textarea {
+    display: block;
+}
+
 .bottom-box {
     background-color: rgba(255, 255, 255, 0.05);
     border-top-right-radius: 10px;

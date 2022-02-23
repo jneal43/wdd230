@@ -50,7 +50,38 @@
             </div>
         </header>
         <main>
-            
+            <form method="get" action="thankyou.html">
+                <label for="fname">
+                    First Name:
+                    <input id="fname" name="firstName" required>
+                </label>
+                <label for="lname">
+                    Last Name:
+                    <input id="lname" name="lastName" required>
+                </label>
+                <label for="title">
+                    Business Position Title:
+                    <input id="title" name="businessTitle" minlength="7" pattern="- [A-Za-z]+">
+                </label>
+                <label for="email">
+                    Email Address:
+                    <input id="email" type="email" name="emailAddress">
+                </label>
+                <label for="phone">
+                    Phone Number:
+                    <input id="phone" type="tel" name="phoneNum" required>
+                </label>
+                <label for="message">
+                    Business Name/Title Text:
+                    <textarea id="message" name="busName" required></textarea>
+                </label>
+                <label for="description">
+                    Business Description:
+                    <textarea id="description" name="busDescription"></textarea>
+                </label>
+                <input type="hidden" id="date" name="date">
+                <input type="submit" value="Submit">
+            </form>
         </main>
         <footer class="bottom-box">
             <div class="hazardville">
