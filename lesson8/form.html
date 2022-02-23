@@ -21,16 +21,18 @@
             <input id="pwd" name="pwd" minlength="7" pattern="[A-Za-z]+" required>
             <label for="message">Give us a message</label>
             <textarea id="message"></textarea>
-            <input type="hidden" name="todaydate" value="CurrentDate">
-            <label for="levels" name="memlevel">Levels</label>
-            <input list="levels" id="levels">
-            <datalist list="level" name="memlevel">
-                <option value="level1"></option>
-                <option value="level2">Level 2</option>
-                <option value="level3">Level 3</option>
+
+            <label for="level">Levels:</label>
+            <input list="levels" name="level" id="level">
+            <datalist id="levels">
+                <option value="level1">
+                <option value="level2">
+                <option value="level3">
             </datalist>
+            <input type="hidden" id="date" name="date">
 
             <input type="submit" value="Submit">
         </form>
+        <script src="../chamber/js/join.js"></script>
     </body>
 </html>
