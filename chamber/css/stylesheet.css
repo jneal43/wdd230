@@ -471,12 +471,6 @@ footer {
         grid-column: 1 / 4;
         grid-row: 1;
     }
-    #small {
-        display: none;
-    }
-    #medium {
-        display: block;
-    }
     .event {
         grid-column: 1 / 3;
         grid-row: 5;
@@ -569,12 +563,6 @@ footer {
         grid-row: 1 / 3;
         height: 95.5%;
         margin-top: 8px;
-    }
-    #medium {
-        display: none;
-    }
-    #large {
-        display: block;
     }
     .event {
         grid-column: 1;

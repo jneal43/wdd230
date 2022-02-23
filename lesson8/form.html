@@ -17,14 +17,18 @@
             <input id="fname" name="firstname" required>
             <label for="phone">Phone Number:</label>
             <input id="phone" type="number" name="phonenum">
+            <label for="pwd">Type a password:</label>
+            <input id="pwd" name="pwd" minlength="7" pattern="[A-Za-z]+" required>
             <label for="message">Give us a message</label>
             <textarea id="message"></textarea>
             <input type="hidden" name="todaydate" value="CurrentDate">
             <label for="levels" name="memlevel">Levels</label>
+            <input list="levels" id="levels">
             <datalist list="level" name="memlevel">
-                <option value="level">Level 1</option>
-                <option value="level">Level 2</option>
-                <option value="level">Level 3</option>
+                <option value="level1"></option>
+                <option value="level2">Level 2</option>
+                <option value="level3">Level 3</option>
+            </datalist>
 
             <input type="submit" value="Submit">
         </form>
