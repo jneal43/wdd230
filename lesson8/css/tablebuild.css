@@ -1,0 +1,65 @@
+:root {
+	--border: rgb(51, 51, 51);
+	--shadow: rgba(4, 29, 169, 0.5);
+	--back: rgba(4, 29, 169, 0.5);
+    --foredark: rgb(26, 26, 26);
+	--borderlight: rgb(84, 84, 84);
+    --back2: rgb(4, 29, 169);
+	--forelight: rgb(255, 255, 255);
+    --background: rgba(4, 29, 169, 0.1);
+	--zebra: rgba(237, 237, 237, 0.671);
+}
+
+table {
+    margin: 10px auto;
+    border: thin solid var(--border);
+    box-shadow: 7px 7px 10px var(--shadow);
+    border-collapse: collapse;
+}
+
+tr {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+tr:first-child th {
+	background-color: var(--back);
+    color: var(--foredark);
+    font-size: x-large;
+}
+
+th, td {
+	padding: 7px 10px;
+	border: 1px solid var(--borderlight);
+}
+
+th {
+	background-color: var(--back2);
+	color: var(--forelight);
+    font-size: large;
+}
+
+td {
+	text-align: center;
+}
+
+tbody tr {
+    background-color: var(--background);
+}
+
+tbody tr:nth-child(odd) {
+	background-color: var(--zebra);
+}
+
+#black-friday-text {
+    font-style: italic;
+}
+
+#nov-goal {
+	background-color: var(--back2);
+	color: var(--forelight);
+}
+
+#caption {
+    font-size: small;
+	background-color: var(--back);
+}
