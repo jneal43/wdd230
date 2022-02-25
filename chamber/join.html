@@ -53,28 +53,45 @@
             <form method="get" action="thankyou.html">
                 <label for="fname">
                     First Name:
-                    <input id="fname" name="firstName" required>
+                    <input id="fname" name="firstName" placeholder="John" required>
                 </label>
                 <label for="lname">
                     Last Name:
-                    <input id="lname" name="lastName" required>
+                    <input id="lname" name="lastName" placeholder="Doe" required>
                 </label>
                 <label for="title">
                     Business Position Title:
-                    <input id="title" name="businessTitle" minlength="7" pattern="- [A-Za-z]+">
+                    <input id="title" name="businessTitle" minlength="7" pattern="[- A-Za-z]+">
                 </label>
                 <label for="email">
                     Email Address:
-                    <input id="email" type="email" name="emailAddress">
+                    <input id="email" type="email" placeholder="jdoe@email.com" name="emailAddress">
                 </label>
                 <label for="phone">
                     Phone Number:
-                    <input id="phone" type="tel" name="phoneNum" required>
+                    <input id="phone" type="tel" name="phoneNum" placeholder="123-456-7890" pattern="[0-9]{3}[-][0-9]{3}[-][0-9]{4}" required>
                 </label>
                 <label for="message">
-                    Business Name/Title Text:
+                    Business Name/Title:
                     <textarea id="message" name="busName" required></textarea>
                 </label>
+                <div class="radio">
+                    <input type="radio" id="member0" name="memberLevel" value="member0">
+                    Non-Profit
+                </label>
+                    <label>
+                        <input type="radio" id="member1" name="memberLevel" value="member1">
+                        Bronze
+                    </label>
+                    <label>
+                        <input type="radio" id="member2" name="memberLevel" value="member2">
+                        Silver
+                    </label>
+                    <label>
+                        <input type="radio" id="member3" name="memberLevel" value="member3">
+                        Gold
+                    </label>
+                </div>
                 <label for="description">
                     Business Description:
                     <textarea id="description" name="busDescription"></textarea>
