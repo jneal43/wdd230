@@ -12,7 +12,7 @@
         <title>Discover Hazardville</title>
     </head>
     <body>
-        <header class="disc-nav">
+        <header class="join-nav">
             <nav>
                 <ul class="navigation">
                     <li>
@@ -50,8 +50,66 @@
             </div>
         </header>
         <main class="join-main">
+            <div class="membership">
+                <h2>Membership Levels Benefits</h2>
+                <h3>NP Membership</h3>
+                <ul>
+                    <li>
+                        For non profit organizations<br>
+                        there is no fee
+                    </li>
+                </ul>
+                <h3>Bronze Membership</h3>
+                <ul>
+                    <li>
+                        15% discount on events
+                    </li>
+                    <li>
+                        10% discount on advertising
+                    </li>
+                    <li>
+                        Fee of $50/month
+                    </li>
+                </ul>
+                <h3>Silver Membership</h3>
+                <ul>
+                    <li>
+                        25% discount on events
+                    </li>
+                    <li>
+                        15% discount on advertising
+                    </li>
+                    <li>
+                        Free participation in the trade fair
+                    </li>
+                    <li>
+                        Fee of $100/month
+                    </li>
+                </ul>
+                <h3>Gold Membership</h3>
+                <ul>
+                    <li>
+                        50% discount on events
+                    </li>
+                    <li>
+                        50% discount on advertising
+                    </li>
+                    <li>
+                        Free participation in the trade fair
+                    </li>
+                    <li>
+                        5 free featured ads per year
+                    </li>
+                    <li>
+                        1 free training per quarter
+                    </li>
+                    <li id="last">
+                        Fee of $250/month
+                    </li>
+                </ul>
+            </div>
             <form method="get" action="thankyou.html">
-                <label for="fname">
+                <label id="firstname" for="fname">
                     First Name:
                     <input id="fname" type="text" name="firstName" placeholder="John" required>
                 </label>
@@ -76,9 +134,10 @@
                     <textarea id="message" name="busName" placeholder="Hazard Research Labs" required></textarea>
                 </label>
                 <div class="radio">
-                    <input type="radio" id="member0" name="memberLevel" value="member0">
-                    Non-Profit
-                </label>
+                    <label>
+                        <input type="radio" id="member0" name="memberLevel" value="member0">
+                        Non-Profit
+                    </label>
                     <label>
                         <input type="radio" id="member1" name="memberLevel" value="member1">
                         Bronze
@@ -98,6 +157,7 @@
                 </label>
                 <input type="hidden" id="date" name="date">
                 <input type="submit" value="Submit">
+                <div id="space"></div>
             </form>
         </main>
         <footer class="bottom-box">
