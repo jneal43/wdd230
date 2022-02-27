@@ -595,6 +595,16 @@ footer {
 
 /* DISCOVER.HTML */
 
+.disc-nav {
+    background-color: rgba(255, 255, 255, 0.05);
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    max-width: 1100px;
+    margin: auto auto 10px auto;
+    transition: 0.3s;
+    display: grid;
+}
+
 .gallery {
     display: grid;
     text-align: center;
