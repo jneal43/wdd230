@@ -751,3 +751,40 @@ figure p {
         width: 99%;
     }
 }
+
+/* JOIN.HTML */
+
+.join-main {
+	color: #ffffff;
+    text-align: center;
+}
+
+form {
+    margin: auto;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.05);
+    max-width: 1100px;
+}
+
+label, input, textarea {
+    display: block;
+    margin: 5px auto;
+    transition: .3s;
+}
+
+textarea:required, input:required {
+    border: red solid 2px;
+}
+
+textarea:required:valid, input:required:valid {
+    border: green solid 2px;
+}
+
+textarea:focus, textarea:required:focus, input:focus, input:required:focus {
+    border: blue solid 4px;
+    box-shadow: 0px 0px 7px 2px blue;
+}
+
+.radio input {
+    display: inline;
+}
