@@ -876,6 +876,41 @@ textarea:focus, textarea:required:focus, input:focus, input:required:focus {
 }
 
 @media only screen and (min-width: 700px) {
+    .join-nav .navigation {
+        flex-direction: row;
+    }
+    .join-nav .navigation li:last-child {
+        display: none;
+    }
+    .join-nav .navigation li {
+        display: block;
+        flex: 1 1 auto;
+    }
+    .join-nav .navigation li a {
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        text-align: center;
+        color: white;
+    }
+    .join-nav #discover:hover {
+        box-shadow: 0px 10px 0px 0px rgba(0, 119, 255, 0.5);
+    }
+    .join-nav #directory:hover {
+        box-shadow: 0px 10px 0px 0px rgba(255, 0, 0, 0.5);
+    }
+    .join-nav #join:hover {
+        box-shadow: 0px 10px 0px 0px rgba(228, 25, 255, 0.5);
+    }
+    .join-nav #contact:hover {
+        box-shadow: 0px 10px 0px 0px rgba(255, 136, 0, 0.616);
+    }
+    .join-nav #top-image {
+        grid-row: 1 / 3;
+        margin: 15px auto;
+    }
+    .main-nav #long-date {
+        grid-column: 1 / 3;
+    }
     .join-nav {
         margin-bottom: 5px;
     }
@@ -887,14 +922,13 @@ textarea:focus, textarea:required:focus, input:focus, input:required:focus {
     }
     .membership {
         grid-column: 1;
-        margin: auto 5px auto auto;
         width: 100%;
         height: 100%;
     }
     form {
         grid-column: 2;
         margin: auto auto auto 5px;
-        width: 100%;
+        width: 99%;
         height: 100%;
     }
 }
