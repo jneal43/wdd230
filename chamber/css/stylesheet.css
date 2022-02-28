@@ -942,3 +942,10 @@ textarea:focus, textarea:required:focus, input:focus, input:required:focus {
         height: 100%;
     }
 }
+
+/* THANKYOU.HTML */
+
+.thankyou-main {
+    text-align: center;
+    color: white;
+}
