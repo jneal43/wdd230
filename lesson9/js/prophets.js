@@ -29,3 +29,22 @@ fetch(requestURL)
     // Add/append the existing HTML div with the cards class with the section(card)
     document.querySelector('div.cards').appendChild(card);
   }
+
+//to clear out cards
+// let clear = document.querySelectorAll('.cards');
+
+// clear.forEach((item) => {
+//     item.remove();
+// })
+
+//changing styles in JS 
+function changeStyles() {
+    if (window.innerWidth > 800 && window.innerWidth < 1000) {
+        let change = document.querySelector('.cards');
+        change.setAttribute('style', 'background-color: pink; border: 5px solid yellow;')
+        // change.setAttribute('class', 'cards list');
+    }
+}
+
+//responsive with the window size
+window.addEventListener('resize', changeStyles);
