@@ -17,8 +17,8 @@ fetch(requestURL)
     let placeOfBirth = document.createElement('p');
     let img = document.createElement('img');
     h2.textContent = `${prophet.name} ${prophet.lastname}`;
-    dob.textContent = `${prophet.birthdate}`;
-    placeOfBirth.textContent = `${prophet.birthplace}`;
+    dob.textContent = prophet.birthdate;
+    placeOfBirth.textContent = prophet.birthplace;
     img.setAttribute('src', prophet.imageurl);
     img.setAttribute('alt', `${prophet.name} ${prophet.lastname} ${prophet.order}`)
     // Add/append the section(card) with the h2 element
