@@ -26,6 +26,7 @@ function displayCards(business) {
     img.setAttribute('src', business.image);
     img.setAttribute('alt', `The logo for ${business.name}`);
     img.setAttribute('id', business.id)
+    website.setAttribute('href', business.website);
 
     card.appendChild(name);
     card.appendChild(img);
