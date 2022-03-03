@@ -1,0 +1,100 @@
+{
+    "businesses": [
+      {
+        "name": "Pearl Pine",
+        "address": "123 abc st",
+        "phone": "111-111-1111",
+        "website": "https://pearlpine.com/",
+        "image": "images/pearl-pine.webp",
+        "id": "pearl-pine"
+      },
+      {
+        "name": "Alabama Boiled Turkey",
+        "address": "123 abc st",
+        "phone": "111-111-1111",
+        "website": "https://media.ldscdn.org/",
+        "image": "images/abt.webp",
+        "id": "abt"
+      },
+      {
+        "name": "Loop Logo",
+        "address": "123 abc st",
+        "phone": "111-111-1111",
+        "website": "https://media.ldscdn.org/",
+        "image": "images/loop-logo.webp",
+        "id": "loop-logo"
+      },
+      {
+        "name": "Real Estate",
+        "address": "123 abc st",
+        "phone": "111-111-1111",
+        "website": "https://media.ldscdn.org/",
+        "image": "images/real-estate.webp",
+        "id": "real-estate"
+      },
+      {
+        "name": "Bonfire",
+        "address": "123 abc st",
+        "phone": "111-111-1111",
+        "website": "https://media.ldscdn.org/",
+        "image": "images/bonfire-logo.webp",
+        "id": "bonfire-logo"
+      },
+      {
+        "name": "Star Square",
+        "address": "123 abc st",
+        "phone": "111-111-1111",
+        "website": "https://media.ldscdn.org/",
+        "image": "images/starsquare.webp",
+        "id": "starsquare"
+      },
+      {
+        "name": "Club Business",
+        "address": "123 abc st",
+        "phone": "111-111-1111",
+        "website": "https://media.ldscdn.org/",
+        "image": "images/club-business.webp",
+        "id": "club-business"
+      },
+      {
+        "name": "Shutter",
+        "address": "123 abc st",
+        "phone": "111-111-1111",
+        "website": "https://media.ldscdn.org/",
+        "image": "images/shutter.webp",
+        "id": "shutter"
+      },
+      {
+        "name": "Hazard Sign Co.",
+        "address": "123 abc st",
+        "phone": "111-111-1111",
+        "website": "https://media.ldscdn.org/",
+        "image": "images/sign.webp",
+        "id": "sign"
+      },
+      {
+        "name": "Hazard Research Labs",
+        "address": "123 abc st",
+        "phone": "111-111-1111",
+        "website": "https://media.ldscdn.org/",
+        "image": "images/lab.webp",
+        "id": "lab"
+      },
+      {
+        "name": "Hazard Lights",
+        "address": "123 abc st",
+        "phone": "111-111-1111",
+        "website": "https://media.ldscdn.org/",
+        "image": "images/lightbulb.webp",
+        "id": "lightbult"
+      },
+      {
+        "name": "Plant",
+        "address": "123 abc st",
+        "phone": "111-111-1111",
+        "website": "https://media.ldscdn.org/",
+        "image": "images/plant.webp",
+        "id": "plant"
+      }
+    ]
+}

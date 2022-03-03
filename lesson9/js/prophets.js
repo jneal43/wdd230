@@ -12,10 +12,11 @@ fetch(requestURL)
 
   function displayProphets(prophet) {  // Create elements to add to the document
     let card = document.createElement('section');
-    let h2 = document.createElement('h2');    // Change the textContent property of the h2 element to contain the prophet's full name
+    let h2 = document.createElement('h2');
     let dob = document.createElement('p');
     let placeOfBirth = document.createElement('p');
     let img = document.createElement('img');
+    // Change the textContent property of the h2 element to contain the prophet's full name
     h2.textContent = `${prophet.name} ${prophet.lastname}`;
     dob.textContent = prophet.birthdate;
     placeOfBirth.textContent = prophet.birthplace;
