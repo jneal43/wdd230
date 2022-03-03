@@ -1,4 +1,4 @@
-const json = 'js/data.json'
+const json = 'js/data.json';
 
 fetch(json)
     .then(function (response) {
@@ -21,11 +21,11 @@ function displayCards(business) {
     name.textContent = `${business.name}`;
     address.textContent = `${business.address}`;
     phone.textContent = `${business.phone}`;
-    website.textContent = `${business.website}`
+    website.textContent = `${business.website}`;
 
     img.setAttribute('src', business.image);
     img.setAttribute('alt', `The logo for ${business.name}`);
-    img.setAttribute('id', business.id)
+    img.setAttribute('id', business.id);
     website.setAttribute('href', business.website);
 
     card.appendChild(name);
