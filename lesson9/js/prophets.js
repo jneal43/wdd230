@@ -31,7 +31,7 @@ fetch(requestURL)
     document.querySelector('div.cards').appendChild(card);
   }
 
-//to clear out cards
+// to clear out cards
 // let clear = document.querySelectorAll('.cards');
 
 // clear.forEach((item) => {

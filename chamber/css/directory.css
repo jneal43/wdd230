@@ -134,6 +134,16 @@ nav {
     margin: 0 auto;
 }
 
+#buttons {
+    text-align: center;
+}
+
+button {
+    font-size: 20px;
+    display: inline;
+    margin: auto;
+}
+
 .cards {
     display: flex;
     max-width: 1200px;
@@ -159,8 +169,10 @@ nav {
     max-width: 200px;
 }
 
+.list
+
 #club-business {
-    max-width: 300px;
+    max-width: 280px;
 }
 
 .bottom-box {
