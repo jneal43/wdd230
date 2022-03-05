@@ -63,3 +63,9 @@ tbody tr:nth-child(odd) {
     font-size: small;
 	background-color: var(--back);
 }
+td:nth-child(1) {
+	width: 40%;
+}
+td:nth-child(2) {
+	width: 60%;
+}
