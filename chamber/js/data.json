@@ -1,98 +1,98 @@
 {
     "businesses": [
       {
-        "name": "Pearl Pine",
-        "address": "123 abc st",
-        "phone": "111-111-1111",
+        "name": "Pearl Pine Pub",
+        "address": "186 Jacobs St.",
+        "phone": "(302) 756-5891",
         "website": "https://pearlpine.com/",
         "image": "images/pearl-pine.webp",
         "id": "pearl-pine"
       },
       {
         "name": "Alabama Boiled Turkey",
-        "address": "123 abc st",
-        "phone": "111-111-1111",
+        "address": "577 Main St.",
+        "phone": "(302) 756-7256",
         "website": "https://abt.com/",
         "image": "images/abt.webp",
         "id": "abt"
       },
       {
         "name": "Hazard Sign Co.",
-        "address": "123 abc st",
-        "phone": "111-111-1111",
+        "address": "2204 Hazard Rd.",
+        "phone": "(302) 756-7130",
         "website": "https://hazardsigns.com/",
         "image": "images/sign.webp",
         "id": "sign"
       },
       {
-        "name": "Loop Logo",
-        "address": "123 abc st",
-        "phone": "111-111-1111",
+        "name": "Loop Logistics",
+        "address": "2006 Centennial Blvd.",
+        "phone": "(302) 756-6070",
         "website": "https://loop-logo.com/",
         "image": "images/loop-logo.webp",
         "id": "loop-logo"
       },
       {
-        "name": "Real Estate",
-        "address": "123 abc st",
-        "phone": "111-111-1111",
+        "name": "Real Life Real Estate",
+        "address": "789 Verity Pl.",
+        "phone": "(302) 756-8047",
         "website": "https://real-estate.com/",
         "image": "images/real-estate.webp",
         "id": "real-estate"
       },
       {
-        "name": "Bonfire",
-        "address": "123 abc st",
-        "phone": "111-111-1111",
-        "website": "https://bonfire.com/",
+        "name": "Bonfire Design",
+        "address": "44 E 1st St.",
+        "phone": "(302) 756-1556",
+        "website": "https://bonfiredesign.com/",
         "image": "images/bonfire-logo.webp",
         "id": "bonfire-logo"
       },
       {
         "name": "Hazard Lights",
-        "address": "123 abc st",
-        "phone": "111-111-1111",
+        "address": "952 Rocket Rd.",
+        "phone": "(302) 756-3670",
         "website": "https://hazard-lights.com/",
         "image": "images/lightbulb.webp",
         "id": "lightbult"
       },
       {
-        "name": "Star Square",
-        "address": "123 abc st",
-        "phone": "111-111-1111",
+        "name": "Star Square Financial",
+        "address": "820 Fall St.",
+        "phone": "(302) 756-7780",
         "website": "https://starsquare.com/",
         "image": "images/starsquare.webp",
         "id": "starsquare"
       },
       {
         "name": "Club Business",
-        "address": "123 abc st",
-        "phone": "111-111-1111",
+        "address": "404 Nasbert Rd.",
+        "phone": "(302) 756-4696",
         "website": "https://clubbusiness.org/",
         "image": "images/club-business.webp",
         "id": "club-business"
       },
       {
-        "name": "Shutter",
-        "address": "123 abc st",
-        "phone": "111-111-1111",
-        "website": "https://shutter.com/",
+        "name": "Shutter Photography",
+        "address": "772 Brick Pl.",
+        "phone": "(302) 756-7733",
+        "website": "https://shutter-photos.com/",
         "image": "images/shutter.webp",
         "id": "shutter"
       },
       {
         "name": "Hazard Research Labs",
-        "address": "123 abc st",
-        "phone": "111-111-1111",
+        "address": "4455 County Rd. 11",
+        "phone": "(302) 756-5200",
         "website": "https://hazardresearchlabs.gov/",
         "image": "images/lab.webp",
         "id": "lab"
       },
       {
-        "name": "Plant",
-        "address": "123 abc st",
-        "phone": "111-111-1111",
-        "website": "https://plant.com/",
+        "name": "Plant Manufacturing",
+        "address": "66 Cloud St.",
+        "phone": "(302) 756-1520",
+        "website": "https://plant-man.com/",
         "image": "images/plant.webp",
         "id": "plant"
       }
