@@ -8,7 +8,18 @@ fetch(json)
     .then(function (jsonObject) {
         console.table(jsonObject);
         const businesses = jsonObject['businesses'];
-        businesses.forEach(displayCards);
+        if (window.innerWidth < 760 || window.innerWidth > 1140) {
+            businesses.forEach(displayCards);
+        } else {
+            businesses.forEach(displayList);
+        }
+        window.addEventListener("resize", function() { 
+            if (window.innerWidth < 760 || window.innerWidth > 1140) {
+                showCards();
+            } else {
+                showList();
+            }
+        });
 
         function showList() {
             businesses.forEach(removeCards);

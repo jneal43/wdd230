@@ -239,7 +239,7 @@ footer {
     color: #5299CB;
 }
 
-@media only screen and (min-width: 585px) {
+@media only screen and (min-width: 760px) {
     .navigation {
         flex-direction: row;
     }
@@ -294,6 +294,6 @@ footer {
     }
 }
 
-@media only screen and (min-width: 960px) {
+@media only screen and (min-width: 1140px) {
 
 }
