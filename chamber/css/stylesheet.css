@@ -272,8 +272,8 @@ picture {
 }
 
 .weather img {
-    width: 125px;
-    height: 90px;
+    width: 100px;
+    height: 100px;
     grid-row: 2;
     grid-column: 1;
     justify-self: center;
