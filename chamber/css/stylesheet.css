@@ -972,7 +972,6 @@ textarea:focus, textarea:required:focus, input:focus, input:required:focus {
     display: flex;
     align-items: center;
     flex-direction: column;
-    width: 215px;
 }
 
 h1 {
@@ -986,6 +985,11 @@ h1 {
 
 .members img {
     margin-bottom: 7px;
+}
+
+.contact {
+    text-align: center;
+    color: white;
 }
 
 @media only screen and (min-width: 585px) {
@@ -1020,6 +1024,9 @@ h1 {
 @media only screen and (min-width: 1100px) {
     .contact-main{
         grid-auto-columns: 1fr;
+    }
+    .members .card {
+        width: 215px;
     }
     #edgar {
         grid-row: 1;
