@@ -887,6 +887,16 @@ textarea:focus, textarea:required:focus, input:focus, input:required:focus {
     display: inline;
 }
 
+#submit {
+    padding: 5px 20px;
+    transition: .4s;
+}
+
+#submit:hover {
+    background-color: rgba(228, 25, 255, 0.404);
+    color: white;
+}
+
 #space {
     padding: 5px;
 }
