@@ -10,6 +10,16 @@ body {
 h1 {
     text-align: left;
     margin-left: 10px;
+    color: #FFAC00;
+}
+
+p {
+    max-width: 90%;
+    margin: 20px auto;
+}
+
+a {
+    color: white;
 }
 
 header {
@@ -123,10 +133,6 @@ nav {
     width: 100px;
 }
 
-#site-plan {
-    max-width: 98%;
-}
-
 #top, #community, #typography, #wire-frames {
     background-color: #2D383C;
     border-style: solid;
@@ -135,23 +141,24 @@ nav {
     margin: 5px;
 }
 
-h1 {
-    color: #FFAC00;
+#colors, #site-map {
+    background-color: #FFFFFF;
+    color: black;
+    margin: 5px;
 }
 
-a {
-    color: white;
+#site-map h1 {
+    margin-top: 0px;
+    padding-top: 21px;
+}
+
+#site-plan {
+    max-width: 98%;
 }
 
 #wire-frames ul {
 	list-style: none;
     padding: 0px;
-}
-
-#colors {
-    background-color: #FFFFFF;
-    color: black;
-    margin: 5px;
 }
 
 #updateDate {
@@ -231,6 +238,9 @@ a {
     header {
         border-bottom-left-radius: 20px;
         border-bottom-right-radius: 20px;
+    }
+    main {
+        grid-template-columns: 1.25fr .75fr;
     }
     #community {
         grid-column: 1;
