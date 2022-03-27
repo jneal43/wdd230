@@ -1,7 +1,6 @@
 body {
     margin: auto;
     text-align: center;
-    max-width: 1100px;
     background-color: #192428;
     color: white;
     font-family: 'Chakra Petch', sans-serif;
@@ -13,7 +12,7 @@ h1 {
     color: #FFAC00;
 }
 
-p {
+main p {
     max-width: 90%;
     margin: 20px auto;
 }
@@ -26,9 +25,8 @@ header {
     background-color: #FFAC00;
     /* border-bottom-right-radius: 15px;
     border-bottom-left-radius: 15px; */
-    max-width: 1100px;
+    /* max-width: 1100px; */
     margin: auto auto 10px auto;
-    transition: 0.3s;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
@@ -161,15 +159,32 @@ nav {
     padding: 0px;
 }
 
+.bottom-box {
+    background-color: #FFAC00;
+    color: black;
+}
+
+.footer-year {
+    margin-top: 0px;
+    padding-top: 16px;
+}
+
+.footer-update {
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+}
+
 #updateDate {
-    color: #FFAC00;
+    color: #C9F0FF;
 }
 
 @media only screen and (min-width: 700px){
+    header {
+        grid-template-columns: .55fr .45fr;
+    }
     .navigation {
-        display: flex;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: flex-end;
     }
     .navigation li {
         display: block;
@@ -179,6 +194,8 @@ nav {
     }
     main {
         display: grid;
+        max-width: 1100px;
+        margin: auto;
     }
     #top {
         grid-column: 1 / 3;
@@ -236,8 +253,37 @@ nav {
 
 @media only screen and (min-width: 1100px){
     header {
-        border-bottom-left-radius: 20px;
-        border-bottom-right-radius: 20px;
+        grid-template-columns: 1fr 1.5fr 2fr;
+    }
+    #top-image {
+        grid-column: 1;
+    }
+    header h3 {
+        grid-column: 2;
+        text-align: left;
+        font-size: xx-large;
+    }
+    nav {
+        grid-column: 3;
+    }
+    .navlgation li {
+        font-size: xx-large;
+    }
+    #home:hover {
+        box-shadow: 0px 10px 0px 0px white;
+        background-color: white;
+    }
+    #labs:hover {
+        box-shadow: 0px 10px 0px 0px white;
+        background-color: white;
+    }
+    #join:hover {
+        box-shadow: 0px 10px 0px 0px white;
+        background-color: white;
+    }
+    #experiments:hover {
+        box-shadow: 0px 10px 0px 0px white;
+        background-color: white;
     }
     main {
         grid-template-columns: 1.25fr .75fr;
@@ -253,5 +299,9 @@ nav {
     #wire-frames {
         grid-column: 2;
         grid-row: 4;
+    }
+    .bottom-box {
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
     }
 }
