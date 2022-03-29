@@ -1,0 +1,40 @@
+{
+    "experiments": [
+      {
+        "name": "Science",
+        "description": "sasasfdsasdfa ",
+        "image": "images/science.webp",
+        "id": "pearl-pine"
+      },
+      {
+        "name": "The Apparatus",
+        "description": "",
+        "image": "images/apparatus.webp",
+        "id": "bonfire-logo"
+      },
+      {
+        "name": "Liquid Red",
+        "description": "",
+        "image": "images/liquid-red.webp",
+        "id": "club-business"
+      },
+      {
+        "name": "Liquid Flower",
+        "description": "",
+        "image": "images/liquid-flower.webp",
+        "id": "shutter"
+      },
+      {
+        "name": "Assorted Liquids",
+        "description": "",
+        "image": "images/assorted-liquids.webp",
+        "id": "lab"
+      },
+      {
+        "name": "Faceless Cartoon",
+        "description": "",
+        "image": "images/cartoon.webp",
+        "id": "plant"
+      }
+    ]
+}

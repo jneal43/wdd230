@@ -72,7 +72,7 @@ h1 {
     color: #FFAC00;
 }
 
-main {
+.index-main {
     text-align: center;
 }
 
@@ -137,7 +137,7 @@ a {
     .navigation li:last-child {
         display: none;
     }
-    main {
+    .index-main {
         display: grid;
         max-width: 1100px;
         margin: auto;
@@ -187,7 +187,7 @@ a {
         height: 50px;
         width: 50px;
     }
-    main {
+    .index-main {
         grid-template-columns: 1.25fr .75fr;
     }
     #welcome {
@@ -212,4 +212,22 @@ a {
         grid-column: 2;
         margin: auto;
     }
+}
+
+/* EXPERIMENTS.HTML */
+
+.experiments-main {
+    max-width: 1100px;
+    margin: auto;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-around;
+}
+
+#image {
+    max-width: 250px;
 }
