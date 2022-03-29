@@ -6,7 +6,6 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400&display=swap" rel="stylesheet">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Website for my Final Project in WDD230">
@@ -19,23 +18,23 @@
             <nav>
                 <ul class="navigation">
                     <li>
-                        <a id='#' href='#.html'>
-                        #
+                        <a class='nav' href='index.html'>
+                        Home
                         </a>
                     </li>
                     <li>
-                        <a id='#' href='#.html'>
-                        #
+                        <a class='nav' href='labs.html'>
+                        Labs
                         </a>
                     </li>
                     <li>
-                        <a id='#' href='#.html'>
-                        #
+                        <a class='nav' href='join.html'>
+                        Join
                         </a>
                     </li>
                     <li>
-                        <a id='#' href='#.html'>
-                        #
+                        <a class='nav' href='experiments.html'>
+                        Experiments
                         </a>
                     </li>
                     <li>
@@ -45,54 +44,59 @@
                     </li>
                 </ul>
             </nav>
-            <a href='index.html'><img id="top-image" src="images/lab.webp" alt="Hazard Research Labs logo"></a>
+            <a href='index.html'><img class="logo" id="top-image" src="images/lab.webp" alt="Hazard Research Labs logo"></a>
+            <h3 id="header">Hazard Research Labs</h3>
         </header>
         <main>
-            <h1>Welcome to Hazard Research Labs!</h1>
-            <h2>Who are we?</h2> 
-            <p>We are an organization of dedicated lab researchers and scientists focused on making progress towards the next age of human advancement. Labs operate 24/7, but our business hours are between 9am - 5pm, Mon-Fri.</p>
-            <div>
+            <h1 id="welcome">Welcome to Hazard Research Labs!</h1>
+            <div class="card" id="who">
+                <h2>Who are we?</h2> 
+                <p>We are an organization of dedicated lab researchers and scientists focused on making progress towards the next age of human advancement. Labs operate 24/7, but our business hours are between 9am - 5pm, Mon-Fri.</p>
+            </div>
+            <div class="card" id="contact">
                 <h3>Contact Us!</h3>
                 <p>CONTACT INFO with questions</p>
             </div>
-            <div>
+            <div class="card" id="book">
                 <h3>Book an Appointment</h3>
                 <p>Fill out your information and let's get this party started</p>
             </div>
-            <div>
+            <div class="card" id="current">
                 <h3>Current Experiments</h3>
                 <p></p>
                 <a href='experiments.html'>
-                    <h3>
+                    <h4>
                         See more Experiements
-                    </h3>
+                    </h4>
                 </a>
             </div>
         </main>
         <footer class="bottom-box">
-            <div class="info">
+            <div id="info">
                 <img id="lab-logo" src="images/lab.webp" alt="Hazard Research Labs logo">
                 <h3><i>address</i> Hazardville, Delaware 19743</h3>
-                <div id="contact-info">
-                    <a href = "mailto:info@hazardresearchlabs.gov">
-                        info@hazardresearchlabs.gov
-                    </a>
-                    <p>
-                        (302) 756-5200
-                    </p>
-                    <p>
-                        📍 Location Map
-
-                    </p>
-                </div>
             </div>
-            <p class="footer-year">
-            &copy; <span id="year">Hazard Research Labs</span> | Hazard Research | Jared Neal
-            </p>
-            <div class="break"></div>
-            <p class="footer-update">
-            Last updated: <span id="updateDate"></span>
-            </p>
+            <div id="contact-info">
+                <a href = "mailto:info@hazardresearchlabs.gov">
+                    info@hazardresearchlabs.gov
+                </a>
+                <p>
+                    (302) 756-5200
+                </p>
+                <p>
+                    📍 Location Map
+                </p>
+            </div>
+            <div id="copyright">
+                <p class="footer-year">
+                &copy; <span id="year"></span> | Hazard Research Labs | Jared Neal
+                </p>
+                <div class="break"></div>
+                <p class="footer-update">
+                Last updated: <span id="updateDate"></span>
+                </p>
+            </div>
         </footer>
+        <script src="js/script.js"></script>
     </body>
 </html>
