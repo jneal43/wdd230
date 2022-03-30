@@ -1,40 +1,40 @@
 {
     "experiments": [
       {
-        "name": "Science",
-        "description": "sasasfdsasdfa ",
-        "image": "images/science.webp",
-        "id": "pearl-pine"
-      },
-      {
         "name": "The Apparatus",
-        "description": "",
+        "description": "This Apparatus has been used since the first research lab was built, before the town was even incorporated. It's original purpose has been lost to time, however. Many upgrades have taken place to our facilities since then, but the Apparatus remains. It is currently used to hold excess liquids, specifically Liquid Red and Liquid Blue.",
         "image": "images/apparatus.webp",
-        "id": "bonfire-logo"
-      },
-      {
-        "name": "Liquid Red",
-        "description": "",
-        "image": "images/liquid-red.webp",
-        "id": "club-business"
-      },
-      {
-        "name": "Liquid Flower",
-        "description": "",
-        "image": "images/liquid-flower.webp",
-        "id": "shutter"
-      },
-      {
-        "name": "Assorted Liquids",
-        "description": "",
-        "image": "images/assorted-liquids.webp",
-        "id": "lab"
+        "id": "apparatus"
       },
       {
         "name": "Faceless Cartoon",
-        "description": "",
+        "description": "In an experiments about 15 years ago, this researcher, whose name has been forgotten, somehow turned herself and everything in her office into a cartoon. She is still working to reverse the process so she can share with us how it was done. With no eyes to see with and no mouth to speak with there's a slight communication barrier, add to that a certain... difficulty interacting with 3-dimensional objects and it becomes a bigger puzzle to solve. Since she doesn't need any lights or food we decided to keep her around to see what she can accomplish.",
         "image": "images/cartoon.webp",
-        "id": "plant"
+        "id": "cartoon"
+      },
+      {
+        "name": "Assorted Liquids",
+        "description": "A quick example of some of the liquids Hazard Research Labs uses. Here we can see Liquid Blue, Liquid Green, Liquid Red, and Liquid Yellow. These liquids must be combined in controlled amounts, following very specific procedures in order to be safely stored and handled. Failure to follow the safety guidance can and has resulted in casualties at Hazard Research Labs. Luckily, we have ironclad waivers and well paid lawyers to deal with any... fallout.",
+        "image": "images/assorted-liquids.webp",
+        "id": "liquids"
+      },
+      {
+        "name": "Liquid Red",
+        "description": "Rhonda, a lab assistant, inspects a flask of what is hopefully pure Liquid Red for any traces of Liquid Blue. If any Liquid Blue is found, the contents of the flask will be dumped into the Apparatus and the flask destroyed in order to avoid unwanted contamination between the liquids.",
+        "image": "images/liquid-red.webp",
+        "id": "red"
+      },
+      {
+        "name": "Science",
+        "description": "One of our researchers, Karl can be seen here mixing chemicals to observe their reactions. The liquids themselves are ordinarily extremely dangerous, which is why Karl is wearing safety goggles. What Karl doesn't know is that the liquids were swapped with safe chemicals because our insurance doesn't allow children to perform experiments.",
+        "image": "images/science.webp",
+        "id": "science"
+      },
+      {
+        "name": "Liquid Flower",
+        "description": "A recent round of experiments produced this, Liquid Flower. Previously, the only liquids we had discovered were Liquid Blue, Liquid Green, Liquid Red, and Liquid Yellow. By combining these liquids together in the proper formula, our elite scientists were able to develop Liquid Flower, truly a marvel of modern science. We still aren't sure what the Liquid Flower will be used for, only that it can be created.",
+        "image": "images/liquid-flower.webp",
+        "id": "flower"
       }
     ]
 }

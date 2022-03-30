@@ -132,7 +132,7 @@ a {
     }
     .navigation a {
         font-size: 1.62em;
-        padding: .75rem 1.8vw;
+        padding: .75rem 1.4vw;
     }
     .navigation li:last-child {
         display: none;
@@ -221,11 +221,22 @@ a {
     margin: auto;
 }
 
+.experiments-main h2 {
+    color: #FFAC00;
+    text-align: left;
+    margin-left: 10px;
+}
+
 .cards {
     display: flex;
     flex-wrap: wrap;
     text-align: center;
     justify-content: space-around;
+}
+
+.card p {
+    margin: auto;
+    max-width: 240px;
 }
 
 #image {
