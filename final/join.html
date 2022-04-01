@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">   
+    <head>
+        <link rel="stylesheet" href="/css/normalize.css">
+        <link rel="stylesheet" href="css/stylesheet.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500&display=swap" rel="stylesheet">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Website for my Final Project in WDD230">
+        <title>
+            Hazard Research Labs
+        </title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul class="navigation">
+                    <li>
+                        <a class='nav' href='index.html'>
+                        Home
+                        </a>
+                    </li>
+                    <li>
+                        <a class='nav' href='labs.html'>
+                        Labs
+                        </a>
+                    </li>
+                    <li>
+                        <a class='nav' href='join.html'>
+                        Join
+                        </a>
+                    </li>
+                    <li>
+                        <a class='nav' href='experiments.html'>
+                        Experiments
+                        </a>
+                    </li>
+                    <li>
+                        <a href='#' id="ham">
+                            &#9776;
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <a href='index.html'><img class="logo" id="top-image" src="images/lab.webp" alt="Hazard Research Labs logo"></a>
+            <h3 id="header">Hazard Research Labs</h3>
+        </header>
+        <main class="join-main">
+            <h1>Join our Research Program!</h1>
+            <div>
+                <h2>What's in it for you?</h2>
+                <p>Compensation is one of the first things on people's minds when they thing about signing up for Experiments with Hazard Research Labs. Whether you're </p>
+            </div>
+            <form method="get" action="thankyou.html">
+                <label id="firstname" for="fname">
+                    First Name:
+                    <input id="fname" type="text" name="firstName" placeholder="John" required>
+                </label>
+                <label for="lname">
+                    Last Name:
+                    <input id="lname" name="lastName" placeholder="Doe" required>
+                </label>
+                <label for="title">
+                    Business Position Title:
+                    <input id="title" name="businessTitle" minlength="7" pattern="[- A-Za-z]+">
+                </label>
+                <label for="email">
+                    Email Address:
+                    <input id="email" type="email" placeholder="jdoe@email.com" name="emailAddress">
+                </label>
+                <label for="phone">
+                    Phone Number:
+                    <input id="phone" type="tel" name="phoneNum" placeholder="123-456-7890" pattern="[0-9]{3}[-][0-9]{3}[-][0-9]{4}" required>
+                </label>
+                <label for="message">
+                    Business Name/Title:
+                    <textarea id="message" name="busName" placeholder="Hazard Research Labs" required></textarea>
+                </label>
+                <div class="radio">
+                    <label>
+                        <input type="radio" id="member0" name="memberLevel" value="member0">
+                        Non-Profit
+                    </label>
+                    <label>
+                        <input type="radio" id="member1" name="memberLevel" value="member1">
+                        Bronze
+                    </label>
+                    <label>
+                        <input type="radio" id="member2" name="memberLevel" value="member2">
+                        Silver
+                    </label>
+                    <label>
+                        <input type="radio" id="member3" name="memberLevel" value="member3">
+                        Gold
+                    </label>
+                </div>
+                <label for="description">
+                    Business Description:
+                    <textarea id="description" name="busDescription"></textarea>
+                </label>
+                <input type="hidden" id="date" name="date">
+                <input type="submit" value="Submit" id="submit">
+                <div id="space"></div>
+        </main>
+        <footer class="bottom-box">
+            <div id="info">
+                <img id="lab-logo" src="images/lab.webp" alt="Hazard Research Labs logo">
+                <h3><i>address</i> Hazardville, Delaware 19743</h3>
+            </div>
+            <div id="contact-info">
+                <a href = "mailto:info@hazardresearchlabs.gov">
+                    info@hazardresearchlabs.gov
+                </a>
+                <p>
+                    (302) 756-5200
+                </p>
+                <p>
+                    📍 Location Map
+                </p>
+            </div>
+            <div id="copyright">
+                <p class="footer-year">
+                &copy; <span id="year"></span> | Hazard Research Labs | Jared Neal
+                </p>
+                <div class="break"></div>
+                <p class="footer-update">
+                Last updated: <span id="updateDate"></span>
+                </p>
+            </div>
+        </footer>
+        <script src="js/script.js"></script>
+    </body>
+</html>

@@ -242,3 +242,58 @@ a {
 #image {
     max-width: 250px;
 }
+
+/* JOIN.HTML */
+
+.join-main {
+	color: #ffffff;
+    text-align: center;
+}
+
+form {
+    margin: auto;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.05);
+    max-width: 1100px;
+}
+
+label, input, textarea {
+    display: block;
+    margin: 5px auto;
+    transition: .3s;
+}
+
+#firstname {
+    margin-top: 0px;
+    padding-top: 7px;
+}
+
+textarea:not(:placeholder-shown):invalid, input:not(:placeholder-shown):invalid {
+    border-left: red solid 4px;
+}
+
+textarea:required:valid, input:required:valid {
+    border-left: green solid 4px;
+}
+
+textarea:required:focus, input:required:focus {
+    border-left: blue solid 6px;
+}
+
+.radio input {
+    display: inline;
+}
+
+#submit {
+    padding: 5px 20px;
+    transition: .4s;
+}
+
+#submit:hover {
+    background-color: #FFAC00;
+    color: white;
+}
+
+#space {
+    padding: 5px;
+}
