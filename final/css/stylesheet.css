@@ -85,7 +85,7 @@ a {
     width: 105px;
 }
 
-.card {
+.main-card {
     background-color: #2D383C;
     border-style: solid;
     border-width: 2px;
@@ -234,6 +234,14 @@ a {
     justify-content: space-around;
 }
 
+.card {
+    background-color: #2D383C;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #C9F0FF;
+    margin: 5px;
+}
+
 .card p {
     margin: auto;
     max-width: 240px;
@@ -248,6 +256,11 @@ a {
 .join-main {
 	color: #ffffff;
     text-align: center;
+}
+
+.information {
+    max-width: 1100px;
+    margin: auto;
 }
 
 form {
