@@ -310,3 +310,13 @@ textarea:required:focus, input:required:focus {
 #space {
     padding: 5px;
 }
+
+/* LABS.HTML */
+
+.labs-main {
+    text-align: center;
+}
+
+.labs-main img {
+    max-width: 100%;
+}
