@@ -234,17 +234,18 @@ a {
     justify-content: space-around;
 }
 
+.cards p {
+    margin: 5px auto;
+    max-width: 240px;
+    margin: 5px auto;
+}
+
 .card {
     background-color: #2D383C;
     border-style: solid;
     border-width: 2px;
     border-color: #C9F0FF;
     margin: 5px;
-}
-
-.card p {
-    margin: auto;
-    max-width: 240px;
 }
 
 #image {
@@ -315,9 +316,31 @@ textarea:required:focus, input:required:focus {
 
 .labs-main {
     text-align: center;
-    background-color: #2D383C;
+    /* background-color: #2D383C; */
 }
 
 .labs-main img {
     max-width: 100%;
+    margin: 5px auto;
+}
+
+.labs-main p {
+    margin: 5px auto;
+    max-width: 90%;
+}
+
+/* EXTENDED-STAY.HTML */
+
+.extended-main {
+    text-align: center;
+}
+
+.extended-main img {
+    max-width: 100%;
+    margin: 5px auto;
+}
+
+.extended-main .card p {
+    margin: 5px auto;
+    max-width: 90%;
 }
