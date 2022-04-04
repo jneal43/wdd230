@@ -315,6 +315,7 @@ textarea:required:focus, input:required:focus {
 
 .labs-main {
     text-align: center;
+    background-color: #2D383C;
 }
 
 .labs-main img {
