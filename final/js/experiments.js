@@ -8,9 +8,7 @@ fetch(json)
     .then(function (jsonObject) {
         console.table(jsonObject);
         const experiments = jsonObject['experiments'];
-        if (window.innerWidth < 760 || window.innerWidth > 1140) {
             experiments.forEach(displayCards);
-        }
     });
 
 function displayCards(experiment) {
