@@ -23,7 +23,7 @@ function displayCards(experiment) {
     card.setAttribute('class', `card`);
     img.setAttribute('src', experiment.image);
     img.setAttribute('id', `image`);
-    img.setAttribute('alt', `The logo for ${experiment.name}`);
+    img.setAttribute('alt', `An image showing ${experiment.name}`);
 
     card.appendChild(name);
     card.appendChild(img);

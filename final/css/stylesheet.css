@@ -90,7 +90,12 @@ a {
     border-style: solid;
     border-width: 2px;
     border-color: #C9F0FF;
-    margin: 5px;
+    margin: 5px auto;
+}
+
+.image {
+    margin: 5px auto;
+    max-width: 100%;
 }
 
 .bottom-box {
@@ -100,6 +105,7 @@ a {
 }
 
 #lab-logo {
+    margin: 5px;
     max-height: 100px;
     max-width: 100px;
 }
@@ -222,6 +228,12 @@ a {
     margin-left: 10px;
 }
 
+#collection {
+    text-align: center;
+    margin: auto;
+    width: 90%;
+}
+
 .cards {
     display: flex;
     flex-wrap: wrap;
@@ -232,7 +244,6 @@ a {
 }
 
 .cards p {
-    margin: 5px auto;
     max-width: 275px;
     margin: 5px auto;
 }
@@ -242,11 +253,19 @@ a {
     border-style: solid;
     border-width: 2px;
     border-color: #C9F0FF;
-    margin: 5px;
+    margin: 5px auto;
 }
 
 #image {
     max-width: 250px;
+}
+
+@media only screen and (min-width: 1100px) {
+    #collection {
+        text-align: center;
+        margin: auto;
+        max-width: 1100px;
+    }
 }
 
 /* JOIN.HTML */
@@ -256,15 +275,26 @@ a {
     text-align: center;
 }
 
+.join-main p {
+    margin: 5px auto;
+    max-width: 90%;
+}
+
 .information {
     max-width: 1100px;
     margin: auto;
 }
 
+.information a {
+    color: #FFAC00;
+}
+
 form {
-    margin: auto;
-    border-radius: 15px;
-    background-color: rgba(255, 255, 255, 0.05);
+    background-color: #2D383C;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #C9F0FF;
+    margin: 5px auto;
     max-width: 1100px;
 }
 
@@ -313,12 +343,6 @@ textarea:required:focus, input:required:focus {
 
 .labs-main {
     text-align: center;
-    /* background-color: #2D383C; */
-}
-
-.labs-main img {
-    max-width: 100%;
-    margin: 5px auto;
 }
 
 .labs-main p {
@@ -332,12 +356,28 @@ textarea:required:focus, input:required:focus {
     text-align: center;
 }
 
-.extended-main img {
+/* .extended-main img {
     max-width: 100%;
     margin: 5px auto;
-}
+} */
 
 .extended-main .card p {
     margin: 5px auto;
     max-width: 90%;
+}
+
+/* GROUPS.HTML */
+
+.groups-main {
+    text-align: center;
+}
+
+.groups-main p {
+    margin: 5px auto;
+    max-width: 90%;
+}
+
+.groups-main img {
+    max-width: 100%;
+    margin: 5px auto;
 }
